@@ -1,0 +1,19 @@
+[project]
+name = "assignment-1"
+version = "0.1.0"
+description = "Pygame map and graph search assignment starter"
+readme = "README.md"
+authors = [
+    { name = "Richard Kelley", email = "kelleyrc@cua.edu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pygame-ce>=2.5.8",
+]
+
+[project.scripts]
+assignment-1 = "assignment_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
